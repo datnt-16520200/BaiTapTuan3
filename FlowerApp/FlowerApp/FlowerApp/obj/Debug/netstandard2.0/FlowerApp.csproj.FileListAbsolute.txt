@@ -1,0 +1,16 @@
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\bin\Debug\netstandard2.0\FlowerApp.deps.json
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\bin\Debug\netstandard2.0\FlowerApp.dll
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\bin\Debug\netstandard2.0\FlowerApp.pdb
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.csprojAssemblyReference.cache
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.csproj.CoreCompileInputs.cache
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.AssemblyInfoInputs.cache
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.AssemblyInfo.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.dll
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerApp.pdb
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerTypeEntryPage.xaml.g.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\ListFlowerTypesPage.xaml.g.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\FlowerEntryPage.xaml.g.cs
+D:\Courses\xamarin_projects\FlowerApp\FlowerApp\FlowerApp\obj\Debug\netstandard2.0\ListFlowersPage.xaml.g.cs

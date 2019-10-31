@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlowerApp.FlowerEntryPage"
+             Title="Flower Entry Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0"
+                       Grid.Row="0"
+                       Text="Flower type:"/>
+                <Label Grid.Column="0"
+                       Grid.Row="1"
+                       Text="Flower name:"/>
+                <Label Grid.Column="0"
+                       Grid.Row="2"
+                       Text="Image:"/>
+                <Label Grid.Column="0"
+                       Grid.Row="3"
+                       Text="Price"/>
+                <Label Grid.Column="0"
+                       Grid.Row="4"
+                       Text="Description"/>
+
+                <Picker Grid.Column="1"
+                        Grid.Row="0"
+                        x:Name="pickerFlowerType"/>
+                <Entry Grid.Column="1" 
+                       Grid.Row="1"
+                       x:Name="txtFlowerName"/>
+                <Entry Grid.Column="1" 
+                       Grid.Row="2"
+                       x:Name="txtImage"/>
+                <Entry Grid.Column="1" 
+                       Grid.Row="3"
+                       x:Name="txtPrice"/>
+                <Entry Grid.Column="1" 
+                       Grid.Row="4"
+                       x:Name="txtDescription"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Save"
+                        Clicked="OnSaveButtonClicked"/>
+
+                <Button Grid.Column="1"
+                        Text="Delete"
+                        Clicked="OnDeleteButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

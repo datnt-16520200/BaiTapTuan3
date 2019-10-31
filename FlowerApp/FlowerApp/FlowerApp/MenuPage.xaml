@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlowerApp.MenuPage"
+             Title="Menu Page">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0"
+                   Grid.ColumnSpan="4"
+                   Grid.Row="0"
+                   Text="Menu"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   FontSize="70"
+                   TextColor="PaleVioletRed"/>
+
+            <Button Text="List of Flower types"
+                    Clicked="OnBtnFlowerTypeClicked"
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    BackgroundColor="#2296f3"
+                    BorderRadius="10"
+                    TextColor="White"/>
+            <Button Text="List of Flowers"
+                    Clicked="OnBtnFlowerClicked"
+                    Grid.Column="2"
+                    Grid.Row="1"
+                    BackgroundColor="#2296f3"
+                    BorderRadius="10"
+                    TextColor="White"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
